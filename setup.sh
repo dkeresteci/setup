@@ -46,3 +46,9 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+#Custom Actions -dkeresteci
+
+#Add gitignore file
+mv /home/ubuntu/setup/.gitconfig /home/ubuntu/.gitconfig
+git config --global user.name "dkeresteci"
+git config --global user.email "dkeresteci@gmail.com"
