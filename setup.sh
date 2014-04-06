@@ -50,5 +50,5 @@ ln -sf dotfiles/.emacs.d .
 
 #Add gitignore file
 mv /home/ubuntu/setup/.gitconfig /home/ubuntu/.gitconfig
-git config --global user.name "dkeresteci"
-git config --global user.email "dkeresteci@gmail.com"
+git config --global user.name dkeresteci
+git config --global user.email dkeresteci@gmail.com
