@@ -52,3 +52,7 @@ ln -sf dotfiles/.emacs.d .
 mv /home/ubuntu/setup/.gitconfig /home/ubuntu/.gitconfig
 git config --global user.name dkeresteci
 git config --global user.email dkeresteci@gmail.com
+
+#Install Parse
+
+curl -s https://www.parse.com/downloads/cloud_code/installer.sh | sudo /bin/bash
