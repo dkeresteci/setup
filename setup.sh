@@ -18,11 +18,11 @@ sudo apt-get install -y npm
 
 # Install jshint to allow checking of JS code within emacs
 # http://jshint.com/
-npm install -g jshint
+sudo npm install -g jshint
 
 #Install yo and express generator
-npm install -g yo
-npm install -g generator-express
+sudo npm install -g yo
+sudo npm install -g generator-express
 
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
