@@ -20,6 +20,10 @@ sudo apt-get install -y npm
 # http://jshint.com/
 sudo npm install -g jshint
 
+#Fix for yo bug on ubuntu
+#You need to manually create a symlink /usr/bin/node
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+
 #Install yo and express generator
 sudo npm install -g yo
 sudo npm install -g generator-express
