@@ -60,7 +60,8 @@ ln -sf dotfiles/.emacs.d .
 #Custom Actions -dkeresteci
 
 #Add gitignore file
-mv /home/ubuntu/setup/.gitconfig /home/ubuntu/.gitconfig
+cp /home/ubuntu/setup/.gitignore_global /home/ubuntu/.gitignore_global
+cp /home/ubuntu/setup/.gitconfig /home/ubuntu/.gitconfig
 git config --global user.name dkeresteci
 git config --global user.email dkeresteci@gmail.com
 
