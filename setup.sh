@@ -14,7 +14,7 @@ sudo apt-get install -y curl
 #nvm use v0.10.12
 
 #load npm
-sudo apt-get install -y npm
+#sudo apt-get install -y npm
 
 # Install jshint to allow checking of JS code within emacs
 # http://jshint.com/
@@ -22,15 +22,15 @@ sudo npm install -g jshint
 
 #Fix for yo bug on ubuntu
 #You need to manually create a symlink /usr/bin/node
-sudo ln -s /usr/bin/nodejs /usr/bin/node
+#sudo ln -s /usr/bin/nodejs /usr/bin/node
 
 #Install yo and express generator
-sudo npm install -g yo
-sudo npm install -g generator-express
+#sudo npm install -g yo
+#sudo npm install -g generator-express
 
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
-sudo apt-get install -y rlwrap
+#sudo apt-get install -y rlwrap
 
 # Install emacs24
 # https://launchpad.net/~cassou/+archive/emacs
